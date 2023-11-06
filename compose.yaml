@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  pingcheck:
+  ping_checks:
     image: sn0am/ping_checks
     container_name: checks
     environment:
