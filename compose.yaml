@@ -7,4 +7,5 @@ services:
     environment:
     - ping_url=$ping_url
     - ping_interval=$ping_interval
+    - ping_timeout=$ping_timeout
     restart: unless-stopped
