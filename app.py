@@ -1,9 +1,7 @@
 import os
 import requests
 import time
-# from dotenv import load_dotenv
-#
-# load_dotenv()
+
 ping_url = os.environ.get("ping_url")
 ping_interval = int(os.environ.get("ping_interval"))
 
