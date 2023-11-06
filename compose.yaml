@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  pingcheck:
+    image: python:3.9.18
+    container_name: checks
+    environment:
+	  - ping_url=$ping_url
+	  - ping_interval=$ping_interval
+    restart: unless-stopped
